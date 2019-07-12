@@ -1,0 +1,28 @@
+#topo2 nav
+{
+	background: rgba(5,196,225,0.6);
+}
+
+#corpo
+{
+	padding-top: 5%;
+	margin-bottom: 5%;
+}
+
+#corpo p
+{
+	font-size: 15px;
+}
+
+#corpo #nos
+{
+	outline: 8px double #fff;
+	outline-offset: -6px;
+}
+
+#containerInt
+{
+	padding: 5%;
+	color: #8e8e8e;
+	background: rgba(255,255,255,0.5);
+}

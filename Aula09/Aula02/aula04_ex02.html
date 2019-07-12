@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Aula 04 - E01</title>
+		<meta charset="UTF-8">
+		<meta name="viewimport" content="width=device-width;inicial-scale=1;">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+			<!-- Criada uma div "CLICAVEL" e com "LINK REDIRECIONADOR" -->
+			<div onClick="javascript: location.href='http://www.google.com.br';">LINK</div>
+			 
+			<!-- Criar uma div redonda -->
+			<style>
+				#desenho{
+				width: 100px;
+				height: 100px;
+				border-radius: 100px;
+				background: yellow;
+				}
+			</style>
+			<div id="desenho"></div>
+		<br> <br>
+			<!-- Criar uma div tipo BUTTON -->
+			<style>
+				#botao{
+					width: 100px;
+					height: 40px;
+					border: 1px solid;
+					border-radius: 12px;
+					box-shadow: 1px 2px #888888;
+					background: #0cb;
+					text-align: center;
+					color:white;
+				}
+			</style>
+			<div id="botao" onClick="javascript:alert('Clikou!!!');"><h4>Clique</h4></div>
+			
+			</div>
+		</div>
+	</body>
+</html>
